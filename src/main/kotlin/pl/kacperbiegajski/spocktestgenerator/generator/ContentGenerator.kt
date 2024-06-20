@@ -1,7 +1,7 @@
 package pl.kacperbiegajski.spocktestgenerator.generator
 
-import pl.kacperbiegajski.spocktestgenerator.parser.ParsedConstructor
-import pl.kacperbiegajski.spocktestgenerator.parser.ParsedDependency
+import pl.kacperbiegajski.spocktestgenerator.parsed.ParsedConstructor
+import pl.kacperbiegajski.spocktestgenerator.parsed.ParsedDependency
 
 fun generateTestContent(packageName: String, parsedConstructor: ParsedConstructor): String {
     return """

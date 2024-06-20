@@ -2,8 +2,8 @@ package pl.kacperbiegajski.spocktestgenerator.generator
 
 import org.junit.Test
 import org.junit.jupiter.api.Assertions.*
-import pl.kacperbiegajski.spocktestgenerator.parser.ParsedConstructor
-import pl.kacperbiegajski.spocktestgenerator.parser.ParsedDependency
+import pl.kacperbiegajski.spocktestgenerator.parsed.ParsedConstructor
+import pl.kacperbiegajski.spocktestgenerator.parsed.ParsedDependency
 
 class ContentGeneratorKtTest {
     @Test

@@ -3,8 +3,8 @@ package pl.kacperbiegajski.spocktestgenerator
 import com.intellij.psi.PsiClass
 import com.intellij.psi.PsiJavaFile
 import com.intellij.psi.PsiParameter
-import pl.kacperbiegajski.spocktestgenerator.parser.ParsedConstructor
-import pl.kacperbiegajski.spocktestgenerator.parser.ParsedDependency
+import pl.kacperbiegajski.spocktestgenerator.parsed.ParsedConstructor
+import pl.kacperbiegajski.spocktestgenerator.parsed.ParsedDependency
 
 
 fun isMoreThanOneConstructor(file: PsiJavaFile): Boolean {

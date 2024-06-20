@@ -8,12 +8,17 @@
   <name>Spock-Test-Generator</name>
 
   <!-- A displayed Vendor name or Organization ID displayed on the Plugins Page. -->
-  <vendor email="mycompany@yourcompany.com" url="https://www.yourcompany.com">My Company</vendor>
+  <vendor email="biegajski.kacper@gmail.com" url="https://github.com/kacperbiegajski">Kacper Biegajski</vendor>
 
   <!-- Description of the plugin displayed on the Plugin Page and IDE Plugin Manager.
        Simple HTML elements (text formatting, paragraphs, and lists) can be added inside of <![CDATA[ ]]> tag.
        Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-description -->
-  <description>Description Wowwwwwweeeeeeeqqqqqqffffffdd</description>
+  <description>
+    Adds new option to Generate menu for Java files.
+    Generates Spock spec class for Java class with all dependencies already mocked.
+    Works only for classes with max one constructor.
+
+  </description>
 
   <!-- Product and plugin compatibility requirements.
        Read more: https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html -->
